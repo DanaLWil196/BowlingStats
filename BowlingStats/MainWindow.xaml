@@ -46,11 +46,10 @@
         <Button x:Name="AddNewGame" Content="Add Another Game >>" Grid.Column="9" HorizontalAlignment="Left" Margin="27,2,0,0" VerticalAlignment="Top" Width="127" Grid.ColumnSpan="3"/>
 
         <!--Input Information of person-->
-        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="14" RenderTransformOrigin="-0.955,-0.933" Grid.Row="1" Height="15">
-            <ComboBoxItem>Male</ComboBoxItem>
-            <ComboBoxItem>Female</ComboBoxItem>
-        </ComboBox>
-        <TextBox x:Name="yourName" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="15" Margin="32,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" FontSize="8"/>
+        <RadioButton Content="Female" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="61" Grid.Row="1" Margin="3,0,0,0"/>
+        <RadioButton Content="Male" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="46" Grid.Row="1" Grid.Column="1" Margin="15,0,0,0"/>
+        <TextBlock Text="Your Name: " Grid.ColumnSpan="2" Grid.Column="2" Margin="34,0,12,0" Grid.Row="1"/>
+        <TextBox x:Name="yourName" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="15" Margin="43,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" FontSize="8" Grid.Column="3"/>
 
         <!--Game Rounds-->
         <TextBlock HorizontalAlignment="Center" Height="14" Grid.Row="2" TextWrapping="Wrap" Text="         1" VerticalAlignment="Top"  Width="54" FontSize="10" Margin="0,1,0,0" RenderTransformOrigin="1.085,0.529"/>
@@ -65,7 +64,5 @@
         <TextBlock HorizontalAlignment="Center" Height="15" Grid.Row="2" TextWrapping="Wrap" Text="        10" VerticalAlignment="Bottom"  Width="55" FontSize="10" RenderTransformOrigin="1.085,0.529" Grid.Column="9"/>
         <TextBlock HorizontalAlignment="Center" Height="22" Grid.Row="2" TextWrapping="Wrap" Text="Hdcp Score" VerticalAlignment="Bottom"  Width="54" FontSize="10" RenderTransformOrigin="1.085,0.529" Grid.Column="10" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Center" Height="22" Grid.Row="2" TextWrapping="Wrap" Text="Max Possible" VerticalAlignment="Bottom"  Width="54" FontSize="9" RenderTransformOrigin="1.085,0.529" Grid.Column="11" Grid.RowSpan="2"/>
-
     </Grid>
-
 </Window>

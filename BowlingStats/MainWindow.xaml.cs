@@ -26,13 +26,12 @@ namespace BowlingStats
             InitializeComponent();
         }
 
-
-
-        private void btn0_Click(object sender, RoutedEventArgs e)
+        private void Btn0_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "0";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -40,11 +39,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn1_Click(object sender, RoutedEventArgs e)
+        private void Btn1_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "1";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -52,11 +52,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn2_Click(object sender, RoutedEventArgs e)
+        private void Btn2_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "2";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -64,11 +65,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn3_Click(object sender, RoutedEventArgs e)
+        private void Btn3_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "3";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -76,11 +78,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn4_Click(object sender, RoutedEventArgs e)
+        private void Btn4_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "4";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -88,11 +91,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn5_Click(object sender, RoutedEventArgs e)
+        private void Btn5_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "5";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -100,11 +104,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn6_Click(object sender, RoutedEventArgs e)
+        private void Btn6_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "6";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -112,11 +117,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn7_Click(object sender, RoutedEventArgs e)
+        private void Btn7_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "7";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -124,11 +130,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn8_Click(object sender, RoutedEventArgs e)
+        private void Btn8_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "8";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -136,11 +143,12 @@ namespace BowlingStats
             }
         }
 
-        private void btn9_Click(object sender, RoutedEventArgs e)
+        private void Btn9_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
                 Scoring1.Text = "9";
+                MaxScoreToEarn.Text = "290";
             }
             else
             {
@@ -148,15 +156,17 @@ namespace BowlingStats
             }
         }
 
-        private void btn10_Click(object sender, RoutedEventArgs e)
+        private void Btn10_Click(object sender, RoutedEventArgs e)
         {
             if (operation == "")
             {
-                Scoring1.Text = "10";
+                Scoring2.Text = "X";
+                MaxScoreToEarn.Text = "300";
             }
             else
             {
                 Scoring1.Text = "";
+                Scoring2.Text = "";
             }
         }
 
@@ -198,6 +208,8 @@ namespace BowlingStats
             Scoring19.Text = "";
             Scoring20.Text = "";
             FinalScoreFrom10.Text = "";
+            MaxScoreToEarn.Text = "300";
+            HdcpScore.Text = "";
         } 
     }
 }
